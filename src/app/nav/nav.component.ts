@@ -9,6 +9,8 @@ import { Component } from '@angular/core';
 })
 export class NavComponent {
 
+imageUrl: string ='src/assets/istockphoto-157423118-612x612.jpg'
+
   navpro = [
     'Home', 'About', 'Profile','Logo'
   ]
