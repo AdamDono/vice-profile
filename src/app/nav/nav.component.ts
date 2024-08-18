@@ -12,7 +12,7 @@ export class NavComponent {
 imageUrl: string ='src/assets/istockphoto-157423118-612x612.jpg'
 
   navpro = [
-    'Home', 'About', 'Profile','Logo'
+    'Home', 'About', 'Projects','Contact'
   ]
 Download = ['Download Resume']
 
