@@ -8,5 +8,5 @@ import { Component } from '@angular/core';
   styleUrl: './scroll-feature.component.scss'
 })
 export class ScrollFeatureComponent {
-
+  Download = ['Download Resume']
 }
