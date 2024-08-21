@@ -1,7 +1,7 @@
 .HeroSection{
     height: 920px;
   
-    background-color: rgb(208, 211, 210);
+    background-color: rgb(230, 236, 234);
     text-decoration: dotted;
     padding: 0 auto;
     }
@@ -78,3 +78,35 @@ margin-left: 100px;
     height: 754px;
     margin-top: -130px;
 }
+
+
+.vibrate-1 {
+	animation: vibrate-1 0.3s steps(2, start) 2s infinite alternate both;
+}
+
+@keyframes vibrate-1 {
+    0% {
+      transform: translate(0);
+    }
+    20% {
+      transform: translate(-2px, 2px);
+    }
+    40% {
+      transform: translate(-2px, -2px);
+    }
+    60% {
+      transform: translate(2px, 2px);
+    }
+    80% {
+      transform: translate(2px, -2px);
+    }
+    100% {
+      transform: translate(0);
+    }
+  }
+  
+
+  .fa-brands{
+    margin-left:10px ;
+    margin-bottom: 40px;
+  }
