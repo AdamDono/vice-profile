@@ -1,15 +1,29 @@
 .HeroSection{
     height: 920px;
   
-    background-color: rgb(230, 236, 234);
+    background-color: #ffffff;
     text-decoration: dotted;
     padding: 0 auto;
+  
     }
 
+    .t{
+      margin-left: 100px;
+    }
+
+    .u{
+      margin-left: -85px;
+    }
+
+    .name{
+   font-weight: 900;
+   font-size:70px;
+   margin-top: 7px;
+ 
+    }
 
     .AboutSection{
         height: 920px;
-       
         background-color: rgb(172, 186, 182);
         text-decoration: dotted;
         padding: 0 auto;
@@ -80,33 +94,44 @@ margin-left: 100px;
 }
 
 
-.vibrate-1 {
-	animation: vibrate-1 0.3s steps(2, start) 2s infinite alternate both;
+.slide-in-tr {
+	animation: slide-in-tr 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
-@keyframes vibrate-1 {
-    0% {
-      transform: translate(0);
-    }
-    20% {
-      transform: translate(-2px, 2px);
-    }
-    40% {
-      transform: translate(-2px, -2px);
-    }
-    60% {
-      transform: translate(2px, 2px);
-    }
-    80% {
-      transform: translate(2px, -2px);
-    }
-    100% {
-      transform: translate(0);
-    }
+
+
+ 
+ @keyframes slide-in-tr {
+  0% {
+    transform: translateY(-1000px) translateX(1000px);
+    opacity: 0;
   }
-  
+  100% {
+    transform: translateY(0) translateX(0);
+    opacity: 1;
+  }
+}
+
 
   .fa-brands{
     margin-left:10px ;
     margin-bottom: 40px;
   }
+  .fade-in-left {
+    animation: fade-in-left 3s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+  } 
+
+
+@keyframes fade-in-left {
+  0% {
+    transform: translateX(-50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+.greeting{
+  font-size: 60px;
+}
