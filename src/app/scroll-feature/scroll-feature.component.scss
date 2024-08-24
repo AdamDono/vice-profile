@@ -1,10 +1,7 @@
 .HeroSection{
     height: 920px;
-  
     background-color: #ffffff;
     text-decoration: dotted;
-    padding: 0 auto;
-  
     }
 
     .t{
@@ -18,10 +15,48 @@
     .name{
    font-weight: 900;
    font-size:70px;
-   margin-top: 7px;
+
  
     }
 
+
+    @media (max-width: 768px) {
+      .HeroSection {
+          height: auto;
+       
+      }
+  .row{
+    text-align: center;
+    margin-left: -60px;
+ margin-top: -170px;
+  }
+     .t, .u {
+          margin: 0;
+          padding: 0;
+          text-align: center;
+       
+      }
+  .fade-in-left{
+  width: 350px;
+  text-align: start;
+  
+  }
+      .greeting {
+       display: none;
+      }
+  
+      .name {
+          font-size: 44px;
+          margin-top: 0;
+       
+          
+      }
+
+      .u img {
+        display: none;
+      }
+
+  }
 .card{
   width: 150px;
   height: 130px;
