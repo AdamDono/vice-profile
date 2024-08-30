@@ -57,11 +57,6 @@
       }
 
 
-      .AboutSection {
-        height: 90px;
-       padding-bottom:  900px;
-     
-    }
 
   }
 .card{
@@ -87,13 +82,7 @@ font-size: 50px;
         }
 
         
-    .ProjectsSection {
-        height: 920px;
-  
-        background-color: aquamarine;
-        text-decoration: dotted;
-        padding: 0 auto;
-        }
+ 
 
         
 
@@ -188,6 +177,7 @@ margin-left: 100px;
     transform: translateX(0);
     opacity: 1;
   }
+
 }
 .greeting{
   font-size: 60px;
@@ -201,18 +191,19 @@ margin-left: 100px;
 
 $animationSpeed: 40s;
 
-//sponser animation
+
 @keyframes scroll {
   0% { transform: translateX(0); }
   100% { transform: translateX(calc(-250px * 7))}
 }
 
-// Styling
+
 .slider {
   height: 190px;
   overflow:hidden;
   position: relative;
   width: 1700px;
+
   
   &::before,
   &::after {
@@ -221,7 +212,7 @@ $animationSpeed: 40s;
     height: 100px;
     position: absolute;
     width: 200px;
-    z-index: 2;
+
   }
   
   &::after {
@@ -316,13 +307,14 @@ img, video {
 
 .card-2 {
   width: 650px;
-  height: 650px;
+  height: 450px;
   transform: rotate(-5deg);
 }
 
 .card-3 {
   width: 500px;
-  height: 700px;
+  height: 500px;
+  margin-top: 20px;
 
   transform: scale(1.1);
 }
@@ -335,15 +327,57 @@ img, video {
 
   .card {
       width: 100%;
-      max-width: 350px; 
+      max-width: 950px; 
   }
 
   .card-1, .card-2, .card-3 {
       width: 100%;
   }
+  .AboutSection i{
+margin-top: 250px;
+padding-bottom: 40px;
+font-size: 1px;
+
+  }
+
+  .card-title{
+    margin-bottom: 90px;
+  }
+
+  .button{
+padding-top: 30px;
+  }
+
 } 
 
+.o{
+  margin-bottom: 40px;
+}
 .pb{
   margin-right: 20px;
   width: 100px;
+}
+
+.pb2{
+  margin-right: 20px;
+background-color: aqua;
+width: 100px;
+}
+
+
+@media (max-width: 768px) {
+  .AboutSection .o{
+    display: none;
+  }
+  .AboutSection h1, 
+  .AboutSection p, 
+  .AboutSection .button, 
+  .technologies .card {
+    text-align: center;
+    margin: 0 auto;
+  
+  }
+
+
+
 }
