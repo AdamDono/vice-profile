@@ -1,9 +1,11 @@
 .HeroSection{
     height: 920px;
-    background-color: #ffffff;
+    background-color: #FFFFFF;
     text-decoration: dotted;
     }
-
+.name {
+  color:#457C5B;
+}
     .t{
       margin-left: 100px;
     }
@@ -79,6 +81,7 @@ font-size: 50px;
         background-color: rgb(172, 186, 182);
         text-decoration: dotted;
         padding: 0 auto;
+        background-color: #FEFC92;
         }
 
         
@@ -176,11 +179,15 @@ margin-left: 100px;
   100% {
     transform: translateX(0);
     opacity: 1;
+    
+   
   }
 
 }
 .greeting{
   font-size: 60px;
+
+  
 }
 
 
@@ -230,6 +237,7 @@ $animationSpeed: 40s;
     animation: scroll $animationSpeed linear infinite;
     display: flex;
     width: calc(350px * 14);
+    
   }
   
   .slide {
@@ -331,12 +339,14 @@ img, video {
   }
 
   .card-1, .card-2, .card-3 {
-      width: 100%;
+      width: 10
+      0%;
   }
   .AboutSection i{
 margin-top: 250px;
 padding-bottom: 40px;
 font-size: 1px;
+background-color: #FFFFFF;
 
   }
 
@@ -387,5 +397,9 @@ width: 100px;
 }
 
 .headerspan{
-  color: #219ebc;
+  color:#457C5B;
+}
+
+.ProjectsSection{
+  background-color: #FFFFFF;
 }
