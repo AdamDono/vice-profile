@@ -2,6 +2,10 @@
     height: 920px;
     background-color: #FFFFFF;
     text-decoration: dotted;
+    background-image: url("/assets/pexels-pixabay-355770.jpg");
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
     }
 .name {
   color:#457C5B;
@@ -82,6 +86,10 @@ font-size: 50px;
         text-decoration: dotted;
         padding: 0 auto;
         background-color: #FEFC92;
+        background-image: url("/assets/pexels-sebastian-411207.jpg");
+        background-size: cover; /* Makes sure the image covers the whole background */
+        background-position: center; /* Centers the image */
+        background-repeat: no-repeat; /* Ensures the image does not repeat */
         }
 
         
@@ -347,6 +355,7 @@ margin-top: 250px;
 padding-bottom: 40px;
 font-size: 1px;
 background-color: #FFFFFF;
+
 
   }
 
