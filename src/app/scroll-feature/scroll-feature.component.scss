@@ -288,6 +288,9 @@ img, video {
   object-fit: cover;
 }
 
+.pad{
+padding-top: 90px;
+    }
 .overlay {
   position: absolute;
   top: 0;
@@ -345,6 +348,8 @@ img, video {
       width: 100%;
       max-width: 950px; 
   }
+
+
 
   .card-1, .card-2, .card-3 {
       width: 420px;
