@@ -7,6 +7,7 @@
     background-position: center; 
     background-repeat: no-repeat; 
     }
+
 .name {
   color:#457C5B;
 }
@@ -24,8 +25,6 @@
 
  
     }
-
-
     @media (max-width: 768px) {
       .HeroSection {
           height: auto;
@@ -62,8 +61,6 @@
         display: none;
       }
 
-
-
   }
 .card{
   width: 260px;
@@ -93,16 +90,15 @@ font-size: 50px;
         }
 
         
- 
-
-        
 
 .herodiv{
 padding-top: 200px;
 margin-left: 100px;
 }
 
-
+.technologies{
+  margin-top: 380px;
+}
 .bounce-in-top {
 	animation: bounce-in-top 1.1s both;
 }
@@ -397,6 +393,8 @@ width: 100px;
   .AboutSection h1, 
   .AboutSection p, 
   .AboutSection .button, 
+
+
   .technologies .card {
     text-align: center;
     margin: 0 auto;
@@ -416,7 +414,7 @@ width: 100px;
 }
 
 .ProjectsSection{
-  background-color: #DAFFF6;
+  background-color: #CBCBCB;
 }
 
 .y{
